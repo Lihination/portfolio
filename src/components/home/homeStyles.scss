@@ -1,0 +1,28 @@
+body {
+    background-image: url('../assets/IMG_20200221_144741.jpg') !important;
+    background-size: cover;
+}
+
+.home{
+    margin: 12%;
+    color: white;
+
+    h1{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 30px;
+    }
+    button{
+        padding: 15px;
+        margin-left:45%;
+        border-radius: 5px;
+        outline: none;
+        border: 1PX solid #6B2236;
+        color: #6B2236;
+        text-transform: uppercase;
+    }
+}
