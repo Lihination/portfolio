@@ -3,7 +3,7 @@ import './projectStyles.scss'
 
 const Projects= ()=>(
     <div>
-        <h1>My Projects</h1>
+        <h1>Loading...</h1>
     </div>
 )
 

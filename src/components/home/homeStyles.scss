@@ -1,28 +1,36 @@
-body {
-    background-image: url('../assets/IMG_20200221_144741.jpg') !important;
-    background-size: cover;
-}
-
 .home{
-    margin: 12%;
-    color: white;
 
     h1{
-        font-size: 50px;
+        font-family: Lobster, sans-serif;
+        font-size: 70px;
         text-align: center;
+        color: #73C1C6;
+        padding: 150px 0 40px 0;
     }
 
-    h3 {
+    h2 {
         text-align: center;
-        font-size: 30px;
+        font-size: 40px;
+        margin: 0;
+        padding: 0;
+    
     }
-    button{
-        padding: 15px;
-        margin-left:45%;
-        border-radius: 5px;
-        outline: none;
-        border: 1PX solid #6B2236;
-        color: #6B2236;
-        text-transform: uppercase;
-    }
+    
+}
+
+.stack {
+    background-color: #73C1C6;
+    padding: 0 15px 80px 15px;
+    
+    width: 30em;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.skillset {
+    display: flex;
+    justify-content: space-evenly;
+}
+.skill {
+    border-right: 3px solid rgb(31, 77, 80);
 }

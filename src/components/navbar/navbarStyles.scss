@@ -1,13 +1,16 @@
 .nav{
     display: flex;
-    background: #6B2236;
+    justify-content: space-between;
+    align-items: center;
+    background: #73C1C6;
     height: 50px;
-}
 
-a {
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: 20px;
-    color: white;
-    
+    a {
+        text-decoration: none;
+        margin: 20px;
+        color:white;   
+    }
+}
+.logo {
+    font-family: Lobster;
 }

@@ -1,9 +1,13 @@
 import React from 'react'
+import inputStructure from './inputStructure.json';
 import './inputStyles.scss'
 
 const InputField= ()=>(
     <div>
-        <input type="text"/>
+        {inputStructure.map(eachInput=>{
+            
+        })}
+
     </div>
 )
 
